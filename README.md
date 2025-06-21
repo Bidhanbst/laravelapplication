@@ -12,7 +12,7 @@ docker buildx build --platform linux/amd64,linux/arm64 -t imagename:tag --push .
 ```
 
 ## Set up NFS server for Persistent Volume Storage
-Follow the ansible guide to create NFS server
+Follow the ansible [guide](https://github.com/Bidhanbst/ansible/blob/main/README.md) to create NFS server
 
 ## Under k8s/application folder apply the yaml for an application
 ```
